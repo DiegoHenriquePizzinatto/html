@@ -1,0 +1,512 @@
+html:
+
+<div class="teste">
+    <div class="filtros">
+    	<div class="position-components">
+        <label>
+            Data Inicial:
+            <input type="date" name="data_inicial">
+        </label>
+		</div>
+		
+		<div class="position-components">
+        <label>
+            Data Final:
+            <input type="date" name="data_final">
+        </label>
+		</div>
+		
+		<div class="position-components">
+        <label>
+            Tipo:
+            <select name="tipo">
+                <option value=""></option>
+                <option value="Todos">Todos</option>
+                <option value="debito">Débito</option>
+                <option value="credito">Crédito</option>
+            </select>
+        </label>
+		</div>
+        <button class="btn-filtrar">Filtrar</button>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Solicitação</th>
+                    <th>Tipo</th>
+                    <th>Abertura</th>
+                    <th>Fechamento</th>
+                    <th>Solicitante</th>
+                    <th>Responsável</th>
+                    <th>Status</th>
+                    <th>Valor total</th>
+                    <th>Pendente</th>
+                </tr>
+            </thead>
+            <tbody>
+            	<tr>
+          <td>1</td>
+          <td>Elden Ring: Shadow of the Erdtree</td>
+          <td>RPG de Ação</td>
+          <td>9.8</td>
+          <td>Elden Ring: Shadow of the Erdtree</td>
+          <td>RPG de Ação</td>
+          <td>9.8</td>
+          <td>9.8</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>The Legend of Zelda: Tears of the Kingdom</td>
+          <td>Ação/Aventura</td>
+          <td>9.7</td>
+          <td>The Legend of Zelda: Tears of the Kingdom</td>
+          <td>Ação/Aventura</td>
+          <td>9.7</td>
+          <td>9.7</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Final Fantasy VII Rebirth</td>
+          <td>RPG</td>
+          <td>9.6</td>
+          <td>Final Fantasy VII Rebirth</td>
+          <td>RPG</td>
+          <td>9.6</td>
+          <td>9.6</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Resident Evil 4 Remake</td>
+          <td>Terror/Survival</td>
+          <td>9.5</td>
+          <td>Resident Evil 4 Remake</td>
+          <td>Terror/Survival</td>
+          <td>9.5</td>
+          <td>9.5</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Baldur's Gate 3</td>
+          <td>RPG Estratégico</td>
+          <td>9.5</td>
+          <td>Baldur's Gate 3</td>
+          <td>RPG Estratégico</td>
+          <td>9.5</td>
+          <td>9.5</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Cyberpunk 2077: Phantom Liberty</td>
+          <td>RPG Futurista</td>
+          <td>9.4</td>
+          <td>Cyberpunk 2077: Phantom Liberty</td>
+          <td>RPG Futurista</td>
+          <td>9.4</td>
+          <td>9.4</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Hogwarts Legacy</td>
+          <td>Aventura/Magia</td>
+          <td>9.3</td>
+          <td>Hogwarts Legacy</td>
+          <td>Aventura/Magia</td>
+          <td>9.3</td>
+          <td>9.3</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Alan Wake 2</td>
+          <td>Terror/Psicológico</td>
+          <td>9.2</td>
+          <td>Alan Wake 2</td>
+          <td>Terror/Psicológico</td>
+          <td>9.2</td>
+          <td>9.2</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Starfield</td>
+          <td>Exploração Espacial</td>
+          <td>9.1</td>
+          <td>Starfield</td>
+          <td>Exploração Espacial</td>
+          <td>9.1</td>
+          <td>9.1</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Helldivers 2</td>
+          <td>Tiro Cooperativo</td>
+          <td>9.0</td>
+          <td>Helldivers 2</td>
+          <td>Tiro Cooperativo</td>
+          <td>9.0</td>
+          <td>9.0</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        
+        <tr>
+          <td>1</td>
+          <td>Elden Ring: Shadow of the Erdtree</td>
+          <td>RPG de Ação</td>
+          <td>9.8</td>
+          <td>Elden Ring: Shadow of the Erdtree</td>
+          <td>RPG de Ação</td>
+          <td>9.8</td>
+          <td>9.8</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>The Legend of Zelda: Tears of the Kingdom</td>
+          <td>Ação/Aventura</td>
+          <td>9.7</td>
+          <td>The Legend of Zelda: Tears of the Kingdom</td>
+          <td>Ação/Aventura</td>
+          <td>9.7</td>
+          <td>9.7</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Final Fantasy VII Rebirth</td>
+          <td>RPG</td>
+          <td>9.6</td>
+          <td>Final Fantasy VII Rebirth</td>
+          <td>RPG</td>
+          <td>9.6</td>
+          <td>9.6</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Resident Evil 4 Remake</td>
+          <td>Terror/Survival</td>
+          <td>9.5</td>
+          <td>Resident Evil 4 Remake</td>
+          <td>Terror/Survival</td>
+          <td>9.5</td>
+          <td>9.5</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Baldur's Gate 3</td>
+          <td>RPG Estratégico</td>
+          <td>9.5</td>
+          <td>Baldur's Gate 3</td>
+          <td>RPG Estratégico</td>
+          <td>9.5</td>
+          <td>9.5</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Cyberpunk 2077: Phantom Liberty</td>
+          <td>RPG Futurista</td>
+          <td>9.4</td>
+          <td>Cyberpunk 2077: Phantom Liberty</td>
+          <td>RPG Futurista</td>
+          <td>9.4</td>
+          <td>9.4</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Hogwarts Legacy</td>
+          <td>Aventura/Magia</td>
+          <td>9.3</td>
+          <td>Hogwarts Legacy</td>
+          <td>Aventura/Magia</td>
+          <td>9.3</td>
+          <td>9.3</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Alan Wake 2</td>
+          <td>Terror/Psicológico</td>
+          <td>9.2</td>
+          <td>Alan Wake 2</td>
+          <td>Terror/Psicológico</td>
+          <td>9.2</td>
+          <td>9.2</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Starfield</td>
+          <td>Exploração Espacial</td>
+          <td>9.1</td>
+          <td>Starfield</td>
+          <td>Exploração Espacial</td>
+          <td>9.1</td>
+          <td>9.1</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Helldivers 2</td>
+          <td>Tiro Cooperativo</td>
+          <td>9.0</td>
+          <td>Helldivers 2</td>
+          <td>Tiro Cooperativo</td>
+          <td>9.0</td>
+          <td>9.0</td>
+          <td>Tiro Cooperativo</td>
+        </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="9">Solicitação de Notas de Débito/Notas de Crédito</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+
+
+
+
+css:
+
+css:
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.teste {
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+    }
+    
+ .filtros {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);  
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1.5s ease;
+    transition: all 0.3s ease;
+}
+
+.position-components {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Labels modernizadas */
+.filtros label {
+    font-size: 0.9rem;
+    color: #B3BDBA;
+    font-weight: 500;
+}
+
+/* Inputs e Selects estilosos */
+.filtros input,
+.filtros select {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.2);
+    color: #B3BDBA;
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+}
+
+
+.filtros input::placeholder {
+    color: #ccc;
+    opacity: 1;
+}
+
+
+.filtros input:focus,
+.filtros select:focus {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 0 2px rgba(30, 144, 255, 0.6);
+}
+
+
+.filtros button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #1e90ff, #00bfff);
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 191, 255, 0.4);
+}
+
+.filtros button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 191, 255, 0.6);
+}
+
+.filtros button:active {
+    transform: scale(0.98);
+}
+
+/* FadeIn animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+    .table-container {
+      background: #1c89b8;
+      background: linear-gradient(90deg, rgba(28, 137, 184, 1) 0%, rgba(38, 126, 181, 1) 50%, rgba(16, 74, 161, 1) 100%);
+      width: 100%;
+      max-width: 1900px; 
+      margin: 0 auto;  
+      overflow: hidden;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+      animation: fadeIn 1.5s ease;
+      font-family: "Poppins", sans-serif;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+
+    table {
+      width: 100%;
+      table-layout: auto;
+      height: 90%;
+      border-collapse: collapse;
+      backdrop-filter: blur(10px);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    thead {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    th, td {
+      padding: 15px 20px;
+      text-align: left;
+      position: relative;
+      transition: all 0.3s ease;
+      color: #fff;
+    } 
+
+    th {
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      transition: transform 0.2s ease, background 0.3s ease;
+    }
+
+    tbody tr:hover {
+      transform: scale(1.02);
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    tbody td::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 2px;
+      width: 0%;
+      background: #59E6FF;
+      transition: width 0.3s ease;
+    }
+
+    tbody td:hover::before {
+      width: 100%;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Rodapé animado */
+    tfoot {
+      background: rgba(255, 255, 255, 0.1);
+      text-align: center;
+      font-size: 0.9rem;
+      color: #fff;
+    }
+
+    /* Luz suave nos cantos */
+    .table-container::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background: radial-gradient(circle at top left, rgba(0, 255, 255, 0.2), transparent 70%),
+                  radial-gradient(circle at bottom right, rgba(255, 165, 0, 0.2), transparent 70%);
+      z-index: -1;
+      animation: pulse 4s infinite alternate;
+    }
+
+    @keyframes pulse {
+      from {
+        transform: scale(1);
+      }
+      to {
+        transform: scale(1.05);
+      }
+    }
