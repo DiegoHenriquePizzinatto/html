@@ -1,0 +1,42 @@
+<head>
+  <!-- Tailwind e Lucide -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body onload="lucide.createIcons()">
+  <!-- Header com Dropdown -->
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">TechBlog</h1>
+      <nav class="space-x-4 relative group">
+        <a href="#" class="text-gray-700 hover:text-blue-500">Início</a>
+
+        <!-- Categorias com Dropdown -->
+        <div class="inline-block relative group">
+          <button class="text-gray-700 hover:text-blue-500 inline-flex items-center">
+            Categorias
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" stroke-width="2"
+                 viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7" /></svg>
+          </button>
+          <div class="absolute left-0 mt-2 w-56 bg-white border rounded shadow-lg opacity-0 group-hover:opacity-100 scale-95 group-hover:scale-100 transform transition-all duration-200 origin-top z-50">
+            <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 text-sm">
+              <i data-lucide="smartphone" class="w-4 h-4 mr-2"></i> iPhone
+            </a>
+            <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 text-sm">
+              <i data-lucide="laptop" class="w-4 h-4 mr-2"></i> Informática
+            </a>
+            <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 text-sm">
+              <i data-lucide="lock" class="w-4 h-4 mr-2"></i> Cibersegurança
+            </a>
+            <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 text-sm">
+              <i data-lucide="brain" class="w-4 h-4 mr-2"></i> Inteligência Artificial
+            </a>
+          </div>
+        </div>
+
+        <a href="#" class="text-gray-700 hover:text-blue-500">Sobre</a>
+        <a href="#" class="text-gray-700 hover:text-blue-500">Contato</a>
+      </nav>
+    </div>
+  </header>
+</body>
